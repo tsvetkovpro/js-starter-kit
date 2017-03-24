@@ -2,8 +2,7 @@
   "name": "javascript-development-environment",
   "version": "1.0.0",
   "description": "JavaScript development environment",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "Stas Tsvetkov",
   "license": "MIT",
   "dependencies": {
@@ -30,7 +29,7 @@
     "jsdom": "9.8.0",
     "json-schema-faker": "0.3.6",
     "json-server": "0.8.22",
-    "localtunnel": "1.8.1",
+    "localtunnel": "^1.8.1",
     "mocha": "3.1.2",
     "nock": "8.1.0",
     "npm-run-all": "3.1.1",
