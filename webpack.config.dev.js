@@ -2,7 +2,7 @@ import path from 'path';
 
 export default {
 	debug: true,
-	devtool: 'inline-source-map',
+	devtool: 'inline-source-map', //more webpack.github.io/docs/configuration.html#devtool
 	noInfo: false,
 	entry: [
 		path.resolve(__dirname, 'src/index')
