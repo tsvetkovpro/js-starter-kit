@@ -20,18 +20,18 @@
 todo:
 
 - [x] package management
-- bundling
+- [ ] bundling
 - [x] minification
 - [x] sourcemaps
 - [x] traspiling
-- dynamic html generation
-- centralized http
-- mock api framework
-- conponent libraries
-- development webserver
+- [ ] dynamic html generation
+- [ ] centralized http
+- [ ] mock api framework
+- [ ] conponent libraries
+- [ ] development webserver
 - [x] linting
-- automated testing
-- continuous integration
-- automated build
-- automated deployment
-- working example app
+- [ ] automated testing
+- [ ] continuous integration
+- [ ] automated build
+- [ ] automated deployment
+- [ ] working example app
