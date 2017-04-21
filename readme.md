@@ -19,17 +19,17 @@
 
 todo:
 
-- package management
+- [x] package management
 - bundling
-- minification
-- sourcemaps
-- traspiling
+- [x] minification
+- [x] sourcemaps
+- [x] traspiling
 - dynamic html generation
 - centralized http
 - mock api framework
 - conponent libraries
 - development webserver
-- linting
+- [x] linting
 - automated testing
 - continuous integration
 - automated build
