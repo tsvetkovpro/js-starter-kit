@@ -30,8 +30,8 @@ todo:
 - [ ] conponent libraries
 - [ ] development webserver
 - [x] linting
-- [ ] automated testing
-- [ ] continuous integration
+- [x] automated testing
+- [x] continuous integration
 - [ ] automated build
 - [ ] automated deployment
 - [ ] working example app
