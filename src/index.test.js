@@ -2,7 +2,7 @@ import {expect} from 'chai';
 import jsdom from 'jsdom';
 import fs from 'fs';
 
-describe('our first test', () => {
+describe('Our first test', () => {
 	it('should pass', () => {
 		expect(true).to.equal(true);
 	});
@@ -17,5 +17,5 @@ describe('index.html', () => {
 			done();
 			window.close();
 		});
-	});
-});
+	})
+})
