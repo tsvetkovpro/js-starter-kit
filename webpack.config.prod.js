@@ -9,14 +9,14 @@ export default {
 	devtool: 'source-map',
 	noInfo: false,
 	entry: {
-		vendor: path.resolve(__dirname, 'src/vendor'),
-		main: path.resolve(__dirname, 'src/index')
+		vendor: path.resolve(__dirname, 'src/vendor'), //++
+		main: path.resolve(__dirname, 'src/index') //++
 	},
 	target: 'web',
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/',
-		filename: '[name].[chunkhash].js'
+		filename: '[name].[chunkhash].js' //++
 	},
 	plugins: [
 		// Generate an external css file with a hash in the filename
@@ -25,6 +25,7 @@ export default {
 		// Hash the files using MD5 so that their names change when the content changes.
 		new WebpackMd5Hash(),
 
+		//++
 		// Use CommonsChunkPlugin to create a separate bundle
 		// of vendor libraries so that they're cached separately.
 		new webpack.optimize.CommonsChunkPlugin({
