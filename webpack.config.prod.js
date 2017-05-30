@@ -1,7 +1,7 @@
 import webpack from 'webpack';
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import WebpackMd5Hash from 'webpack-md5-hash';
+import WebpackMd5Hash from 'webpack-md5-hash'; //++
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 export default {
@@ -16,12 +16,13 @@ export default {
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/',
-		filename: '[name].[chunkhash].js' //++
+		filename: '[name].[chunkhash].js' //++ //++
 	},
 	plugins: [
 		// Generate an external css file with a hash in the filename
 		new ExtractTextPlugin('[name].[contenthash].css'),
 
+		//++
 		// Hash the files using MD5 so that their names change when the content changes.
 		new WebpackMd5Hash(),
 
