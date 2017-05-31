@@ -20,18 +20,23 @@
 todo:
 
 - [x] package management
-- [ ] bundling
+- [x] bundling
 - [x] minification
 - [x] sourcemaps
 - [x] traspiling
-- [ ] dynamic html generation
-- [ ] centralized http
-- [ ] mock api framework
-- [ ] conponent libraries
-- [ ] development webserver
+- [x] dynamic html generation
+- [x] centralized http
+- [x] mock api framework
+- [x] conponent libraries
+- [x] development webserver
 - [x] linting
 - [x] automated testing
 - [x] continuous integration
-- [ ] automated build
-- [ ] automated deployment
-- [ ] working example app
+- [x] automated build
+- [x] automated deployment
+- [x] working example app
+
+
+
+Any time you make changed api, just `git push heroku master`
+Heroku take code frome github and deploy on url `https://js-starter-kit-api.herokuapp.com/users`
